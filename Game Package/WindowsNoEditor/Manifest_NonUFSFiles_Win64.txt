@@ -17,4 +17,5 @@ Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll	2020-09-17T1
 Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll	2020-09-17T11:14:31.213Z
 Engine/Binaries/ThirdParty/OpenVR/OpenVRv1_5_17/Win64/openvr_api.dll	2020-09-17T11:14:31.852Z
 Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll	2020-09-17T11:15:16.628Z
-OpenTamagotchi.exe	2022-01-26T19:42:06.910Z
+OpenTamagotchi/Content/Movies/test.mp4	2022-01-27T12:32:56.972Z
+OpenTamagotchi.exe	2022-01-27T12:47:48.066Z

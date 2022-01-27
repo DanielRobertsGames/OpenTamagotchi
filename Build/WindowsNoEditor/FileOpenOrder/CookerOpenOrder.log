@@ -172,28 +172,21 @@
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 171
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 172
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 173
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 174
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 175
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 176
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 177
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 178
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 179
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 180
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 181
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 182
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/FBX/Material/lambert2.uasset" 183
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/FBX/Material/lambert3.uasset" 184
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/FBX/tamagothic.uasset" 185
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/OT_Fred.uasset" 186
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Maps/OpenWorld_BuiltData.uasset" 187
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 188
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Widgets/ProcessBars.uasset" 189
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Maps/OpenWorld.umap" 190
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/MenusPC.uasset" 191
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/MenusGameMode.uasset" 192
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/Credits.uasset" 193
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/MainMenu.uasset" 194
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/SplashScreem.uasset" 195
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/Beginning.umap" 196
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 197
-"../../../Engine/Content/Maps/Entry.umap" 198
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/FBX/Material/lambert2.uasset" 174
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/FBX/Material/lambert3.uasset" 175
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/FBX/tamagothic.uasset" 176
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/OT_Fred.uasset" 177
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Maps/OpenWorld_BuiltData.uasset" 178
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 179
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Assets/lambert1.uasset" 180
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Assets/houseRoof.uasset" 181
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Widgets/ProcessBars.uasset" 182
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Maps/OpenWorld.umap" 183
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/MenusPC.uasset" 184
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/MenusGameMode.uasset" 185
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/Credits.uasset" 186
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/MainMenu.uasset" 187
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/SplashScreem.uasset" 188
+"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/Beginning.umap" 189
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 190
+"../../../Engine/Content/Maps/Entry.umap" 191
