@@ -172,21 +172,22 @@
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 171
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 172
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 173
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/FBX/Material/lambert2.uasset" 174
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/FBX/Material/lambert3.uasset" 175
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/FBX/tamagothic.uasset" 176
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Characters/OT_Fred.uasset" 177
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Maps/OpenWorld_BuiltData.uasset" 178
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 179
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Assets/lambert1.uasset" 180
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Assets/houseRoof.uasset" 181
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Widgets/ProcessBars.uasset" 182
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Maps/OpenWorld.umap" 183
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/MenusPC.uasset" 184
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/MenusGameMode.uasset" 185
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/Credits.uasset" 186
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/MainMenu.uasset" 187
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/SplashScreem.uasset" 188
-"D:/University_2021_22/Games Programming/assignment/OpenTamagotchi/Content/GameFiles/Menus/Beginning.umap" 189
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 190
-"../../../Engine/Content/Maps/Entry.umap" 191
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Characters/FBX/Material/lambert2.uasset" 174
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Characters/FBX/Material/lambert3.uasset" 175
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Characters/FBX/tamagothic.uasset" 176
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Characters/OT_Fred.uasset" 177
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Menus/MenusPC.uasset" 178
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Menus/MenusGameMode.uasset" 179
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Maps/OpenWorld_BuiltData.uasset" 180
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 181
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Assets/lambert1.uasset" 182
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Assets/houseRoof2.uasset" 183
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Widgets/GameUI.uasset" 184
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Maps/OpenWorld.umap" 185
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Menus/gameLogoTitle.uasset" 186
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Menus/Credits.uasset" 187
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Menus/MainMenu.uasset" 188
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Menus/SplashScreem.uasset" 189
+"D:/University_2021_22/Games Programming/assignment/Github Unreal/Content/GameFiles/Menus/Beginning.umap" 190
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 191
+"../../../Engine/Content/Maps/Entry.umap" 192

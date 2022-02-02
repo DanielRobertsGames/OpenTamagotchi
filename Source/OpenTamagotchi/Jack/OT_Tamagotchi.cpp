@@ -19,7 +19,7 @@ AOT_Tamagotchi::AOT_Tamagotchi()
 	m_toilet = 100;
 	m_fun = 100;
 
-	m_direction = 1;
+	m_direction = 0;
 
 	//m_ticker = 0;
 }
@@ -40,7 +40,9 @@ void AOT_Tamagotchi::Tick(float DeltaTime)
 	if (m_ticker > m_speed)
 	{
 		StatsTick();
+		StateCheck();
 		Direction();
+		Behaviour();
 		UE_LOG(LogTemp, Warning, TEXT("Speed = %d"), m_speed);
 		UE_LOG(LogTemp, Warning, TEXT("Fun = %d"), m_fun);
 		UE_LOG(LogTemp, Warning, TEXT("Happiness = %d"), m_happiness);
@@ -55,12 +57,40 @@ void AOT_Tamagotchi::Tick(float DeltaTime)
 
 void AOT_Tamagotchi::StatsTick()
 {
-	m_happiness--;
-	m_hunger--;
-	m_tired--;
-	m_toilet--;
-	m_fun--;
+	m_happiness = m_happiness - 5;
+	m_hunger = m_hunger - 10;
+	m_tired = m_tired - 15;
+	m_toilet = m_toilet - 20;
+	m_fun = m_fun - 25;
 }
+
+void AOT_Tamagotchi::StateCheck()
+{
+	if (m_fun < 20)
+	{
+	    m_fun = 90;
+	} //hungry
+    if (m_hunger < 20)
+	{
+		m_hunger = 80;
+	} //hungry
+
+	if (m_happiness < 20)
+	{
+		m_happiness = 70;
+	} //happiness
+
+	if (m_tired < 20)
+	{
+		m_tired = 60;
+	} //tired
+
+	if (m_toilet < 20)
+	{
+		m_toilet = 50;
+	} //toilet
+}
+
 void AOT_Tamagotchi::Movement(float DeltaTime)
 {
 	FVector location = GetActorLocation();
@@ -68,18 +98,22 @@ void AOT_Tamagotchi::Movement(float DeltaTime)
 	if (m_direction == 0) // North
 	{
 		location.X += m_movementSpeed * DeltaTime;
+		UE_LOG(LogTemp, Warning, TEXT("UP"));
 	}
 	else if (m_direction == 1) // East
 	{
 		location.Y += m_movementSpeed * DeltaTime;
+		UE_LOG(LogTemp, Warning, TEXT("Right"));
 	}
 	else if (m_direction == 2) // South
 	{
 		location.X += -m_movementSpeed * DeltaTime;
+		UE_LOG(LogTemp, Warning, TEXT("Down"));
 	}
 	else if (m_direction == 3) // West
 	{
 		location.Y += -m_movementSpeed * DeltaTime;
+		UE_LOG(LogTemp, Warning, TEXT("Left"));
 	}
 	else
 	{
@@ -102,14 +136,52 @@ void AOT_Tamagotchi::Direction()
 		UE_LOG(LogTemp, Warning, TEXT("Reached Edge"));
 		m_direction = 0;
 	}
-	if (GetActorLocation().Y > 570)
+	if (GetActorLocation().Y > 100)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Reached Edge"));
 		m_direction = 3;
 	}
-	else if (GetActorLocation().Y < -570)
+	else if (GetActorLocation().Y < -100)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Reached Edge"));
 		m_direction = 1;
 	}
+}
+
+void AOT_Tamagotchi::Behaviour()
+{
+        if (m_fun > 25)
+        {
+            UE_LOG(LogTemp, Warning, TEXT("I am having fun"));
+        }
+        else
+        {
+        	UE_LOG(LogTemp, Warning, TEXT("I am bored"));
+        }//fun
+    
+        if (m_hunger > 25)
+        {
+            UE_LOG(LogTemp, Warning, TEXT("I am not hunger"));
+        }
+        else
+        {
+        	UE_LOG(LogTemp, Warning, TEXT("I am hunger"));
+        }//hunger
+        if (m_happiness > 25)
+        {
+            UE_LOG(LogTemp, Warning, TEXT("I am happy"));
+        }
+        else
+        {
+            UE_LOG(LogTemp, Warning, TEXT("I am sad"));
+        }//happy    
+        if (m_toilet > 25)
+        {
+            UE_LOG(LogTemp, Warning, TEXT("I don't need toilet"));
+        }
+        else
+        {
+            UE_LOG(LogTemp, Warning, TEXT("I need toilet"));
+        }//toilet    
+
 }

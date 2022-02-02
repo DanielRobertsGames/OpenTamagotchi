@@ -49,9 +49,10 @@ protected:
 	char m_direction;
 
 	void StatsTick();
-
+    void StateCheck();
 	void Movement(float DeltaTime);
 	void Direction();
+	void Behaviour();
 
 
 };
