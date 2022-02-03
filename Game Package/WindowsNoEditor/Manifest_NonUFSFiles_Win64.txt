@@ -18,4 +18,4 @@ Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll	
 Engine/Binaries/ThirdParty/OpenVR/OpenVRv1_5_17/Win64/openvr_api.dll	2020-09-17T11:14:31.852Z
 Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll	2020-09-17T11:15:16.628Z
 OpenTamagotchi/Content/Movies/test.mp4	2022-02-01T20:31:59.934Z
-OpenTamagotchi.exe	2022-02-02T17:12:18.131Z
+OpenTamagotchi.exe	2022-02-03T16:52:19.092Z
